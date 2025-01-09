@@ -1,0 +1,113 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aec0a9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Main */
+main {
+    background: rgb(106, 121, 114);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Título */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Formulário */
+#todo-form {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+#task-title-input {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-task-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-task-button:hover {
+    background-color: #218838;
+}
+
+/* Lista de tarefas */
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+#todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+#todo-list li span {
+    flex: 1;
+    margin-left: 0.5rem;
+    word-break: break-word;
+}
+
+#todo-list li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#todo-list li button:hover {
+    background-color: #c82333;
+}
+
+#todo-list li input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}
